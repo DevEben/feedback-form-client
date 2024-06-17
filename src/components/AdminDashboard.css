@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* .admin-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.feedback-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.feedback-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 220px;
+}
+
+.feedback-item p {
+    margin: 5px 0;
+}
+
+.feedback-item button {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-item button:hover {
+    background-color: #c9302c;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+} */
+
+
+.App {
+    display: flex;
+    justify-content: center;
+    height: 86vh;
+    width: 95vw;
+    gap: 10px;
+    margin: 20px 30px 0px 30px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #92c7f647;
+    color: #056e78;
+}
+
+.content h1 {
+    font-size: 23px;
+    color: #0056b3;
+}
