@@ -16,6 +16,18 @@ header {
     align-items: center;
     background: #1e9fab15;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+  }
+
+  header::after {
+    content: '';
+    background: linear-gradient(to right, #a772ec, #e9d095, #ba95e7, #9292ed);
+    height: 1.5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
   }
   
   .headerImg {
@@ -56,13 +68,34 @@ header {
   .menuList {
     font-size: 15px;
     font-weight: 700;
-    color: #141414;
+    color: #5089c6;
+    padding: 5px;
     cursor: pointer;
     list-style-type: none;
     text-decoration: none;
+    width: max-content;
+    position: relative;
+  }
+
+  .menuList::after {
+    content: '';
+    color: linear-gradient(to right, red, blue);
+    width: 0;
+    transition: 100ms;
   }
   
+  .menuList:hover::after {
+    background: linear-gradient(to right, #a772ec, #e9d095, #ba95e7, #9292ed);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border-radius: 20px;
+  }
+
   .menuList:hover {
-    color: #5089C6;
-    text-decoration: underline;
+    background: linear-gradient(to top, rgba(80,137,198, 0.2), rgba(80,137,198, 0));
+    color: #04468d;
+    border-radius: 2px;
   }

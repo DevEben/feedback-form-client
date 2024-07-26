@@ -24,7 +24,7 @@ const FeedbackForm = () => {
 
     return (
         <>
-            <section>
+            <section className='background'>
                 <div className="feedbackForm">
                     <h2>How do you feel?</h2>
                     <div className="emoji">

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login&SignUp.css';
 import { useNavigate, Link } from 'react-router-dom';
 import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
+import { BsKeyFill } from "react-icons/bs";
 import axios from 'axios';
 
 const LoginAndSignUp = () => {
@@ -166,7 +167,7 @@ const LoginAndSignUp = () => {
                         <input type="password" placeholder="Password" className="Password" />
                     </div>
                     <div className="input-field">
-                        <FaLock />
+                        <BsKeyFill  style={{fontSize: '15px'}}/> 
                         <input type="password" placeholder="Admin Code" className="Password" id="code" />
                     </div>
                     <button type="submit" className="btn" disabled={loadingSignup}>

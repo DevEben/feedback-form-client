@@ -6,7 +6,6 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
 }
 
 .FinalDown {
@@ -19,14 +18,12 @@ body, html {
     color: white;
     background: #172b4d;
     padding: 10px;
-    font-size: 13px;
 }
 .Footer {
     width: 90%;
     height: 50%;
     display: flex;
     justify-content: space-around;
-    font-size: 13px;
 }
 .Logoss {
     width: 15%;
@@ -52,20 +49,21 @@ body, html {
     width: 20%;
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 10px;
 }
 .Aboutsss > p {
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .Aboutsss > span {
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 400;
 }
 .StraghtLine {
     width: 98%;
     height: 0.5px;
     background: #3f4f6c;
+    margin-bottom: 5px;
 }
 .Socials {
     width: 100%;
@@ -94,7 +92,7 @@ body, html {
     margin-right: 20px;
 }
 .SocialsL > p {
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 30px;
 }
 .SocialsR {
@@ -106,7 +104,7 @@ body, html {
     margin-right: 50px;
 }
 .SocialsR img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     object-fit: contain;
 }
